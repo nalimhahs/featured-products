@@ -1,5 +1,5 @@
-import Query from "./schema.graphql";
+import importAsString from "@reactioncommerce/api-utils/importAsString.js";
 
-export default {
-  Query,
-};
+const schema = importAsString("./schema.graphql");
+
+export default [schema];
