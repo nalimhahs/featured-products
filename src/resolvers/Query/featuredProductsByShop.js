@@ -1,5 +1,5 @@
-import { getPaginatedResponse } from "@reactioncommerce/reaction-graphql-utils";
-import { decodeShopOpaqueId } from "@reactioncommerce/reaction-graphql-xforms/shop";
+import getPaginatedResponse from "@reactioncommerce/api-utils/graphql/getPaginatedResponse.js";
+import { decodeShopOpaqueId } from "../../xforms/id.js";
 
 export default async function featuredProductsByShop(_, args, context) {
   const { shopId: opaqueShopId, ...connectionArgs } = args;
