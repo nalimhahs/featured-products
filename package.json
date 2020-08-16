@@ -1,6 +1,6 @@
 {
-  "name": "@reactioncommerce/api-plugin-example",
-  "description": "Boilerplate Example plugin for the Reaction API",
+  "name": "featured-products",
+  "description": "Featured Products plugin for the Reaction API",
   "version": "0.0.0-development",
   "main": "index.js",
   "type": "module",
