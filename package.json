@@ -1,5 +1,5 @@
 {
-  "name": "featured-products",
+  "name": "@nalimhahs/featured-products",
   "description": "Featured Products plugin for the Reaction API",
   "version": "v0.1.0-1",
   "main": "index.js",
@@ -77,6 +77,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@nalimhahs"
+    "access": "public"
   }
 }
