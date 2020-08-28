@@ -1,27 +1,26 @@
 {
   "name": "featured-products",
   "description": "Featured Products plugin for the Reaction API",
-  "version": "0.1",
+  "version": "v0.1.0-1",
   "main": "index.js",
   "type": "module",
   "engines": {
     "node": ">=12.14.1"
   },
-  "homepage": "https://github.com/reactioncommerce/api-plugin-example",
-  "url": "https://github.com/reactioncommerce/api-plugin-example",
-  "email": "engineering@reactioncommerce.com",
+  "homepage": "https://github.com/nalimhahs/featured-products",
+  "url": "https://github.com/nalimhahs/featured-products",
+  "email": "milanshah1@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactioncommerce/api-plugin-example.git"
+    "url": "git+https://github.com/nalimhahs/featured-products.git"
   },
   "author": {
-    "name": "Reaction Commerce",
-    "email": "engineering@reactioncommerce.com",
-    "url": "https://reactioncommerce.com"
+    "name": "Milan Shah",
+    "email": "milanshah1@gmail.com"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/api-plugin-example/issues"
+    "url": "https://github.com/nalimhahs/featured-products/issues"
   },
   "sideEffects": false,
   "dependencies": {
@@ -78,6 +77,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@nalimhahs"
   }
 }
