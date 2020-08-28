@@ -77,7 +77,4 @@
       "trunk"
     ]
   },
-  "publishConfig": {
-    "access": "public"
-  }
 }
